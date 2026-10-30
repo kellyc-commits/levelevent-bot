@@ -95,4 +95,4 @@ client.on('messageCreate', async (message) => {
 });
 
 // 봇 로그인 토큰
-client.login('MTU2MjAzOTk4NjY4MzkwNDAzMQ.G3cEB5.YBiNZqHlSyeHb_B6F6gs96i8frj2Wh6Ahy-PAA');
+client.login(process.env.DISCORD_TOKEN);
